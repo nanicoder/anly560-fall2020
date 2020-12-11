@@ -31,5 +31,7 @@ select rating, count(*) from film where rating in ('G', 'PG', 'PG-13') group by 
 select rating, count(*) tot_count from film group by rating having tot_count > 200;
 select rating, count(*) tot_count from film where rating in ('G', 'PG', 'PG-13') group by rating having tot_count > 200;
 
-SQL joins
+select * from employee where first_name = 'Puddi';
 
+select * FROM actor where first_name = 'Rama';
+DELETE FROM actor where first_name = 'Rama';
